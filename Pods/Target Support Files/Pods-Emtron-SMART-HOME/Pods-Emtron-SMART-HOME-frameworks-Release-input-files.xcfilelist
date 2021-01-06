@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-Emtron-SMART-HOME/Pods-Emtron-SMART-HOME-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework
+${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework
+${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework
+${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework
+${BUILT_PRODUCTS_DIR}/AWSIoT/AWSIoT.framework
+${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework
+${BUILT_PRODUCTS_DIR}/BlueSocket/Socket.framework
+${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework
+${BUILT_PRODUCTS_DIR}/iProgressHUD/iProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework

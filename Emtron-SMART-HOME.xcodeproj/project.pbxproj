@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10181CBA23799AE600FC0B18 /* TemperatureCalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10181CB923799AE600FC0B18 /* TemperatureCalendarController.swift */; };
+		10181CBC2379A4F300FC0B18 /* CollectionViewCellTemperatureCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10181CBB2379A4F300FC0B18 /* CollectionViewCellTemperatureCalendar.swift */; };
+		10181CBE237C5A1600FC0B18 /* ControllerProZadavaniCasuAteploty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10181CBD237C5A1600FC0B18 /* ControllerProZadavaniCasuAteploty.swift */; };
+		10508032238D6951005E0CAA /* CollectionViewCellSeznamZarizeni.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10508031238D6951005E0CAA /* CollectionViewCellSeznamZarizeni.swift */; };
+		105323FF235D94DC003A8272 /* TestConnectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105323FE235D94DC003A8272 /* TestConnectionController.swift */; };
+		10532401235DE4C4003A8272 /* DeviceListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10532400235DE4C4003A8272 /* DeviceListController.swift */; };
+		1053248C236018FA003A8272 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1053248B236018FA003A8272 /* CollectionViewCell.swift */; };
+		1053248E23617AEC003A8272 /* FirstDeviceSetupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1053248D23617AEB003A8272 /* FirstDeviceSetupController.swift */; };
+		1053249023617D5F003A8272 /* CollectioViewFirstDeviceSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1053248F23617D5F003A8272 /* CollectioViewFirstDeviceSetup.swift */; };
+		10532492236197AC003A8272 /* DeviceDetailHeatingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10532491236197AB003A8272 /* DeviceDetailHeatingController.swift */; };
+		105324942361980D003A8272 /* DeviceDetailLightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105324932361980D003A8272 /* DeviceDetailLightController.swift */; };
+		105FC4B52345EBC000A46384 /* NavodStr2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105FC4B42345EBC000A46384 /* NavodStr2Controller.swift */; };
+		10661270250A5524006350D1 /* DetailedModuleSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1066126F250A5524006350D1 /* DetailedModuleSetting.swift */; };
+		1081577224877DB400AE4E2B /* SelectAddDeviceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1081577124877DB400AE4E2B /* SelectAddDeviceController.swift */; };
+		108157742487801D00AE4E2B /* NavodStr1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108157732487801D00AE4E2B /* NavodStr1Controller.swift */; };
+		1098FD56256555B3006213AB /* NavodKpouzitiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098FD55256555B3006213AB /* NavodKpouzitiController.swift */; };
+		1098FD5925655A87006213AB /* CollectionViewCellSeznamNavodu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098FD5825655A87006213AB /* CollectionViewCellSeznamNavodu.swift */; };
+		109E69DB2381B354005F141D /* AppSetupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E69DA2381B354005F141D /* AppSetupController.swift */; };
+		10CC295B250FA16500E05995 /* SelectedColourController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CC295A250FA16500E05995 /* SelectedColourController.swift */; };
+		10CC295D250FA64000E05995 /* CollectionViewColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CC295C250FA64000E05995 /* CollectionViewColour.swift */; };
+		10CE31D3252AF6AA001FC6D8 /* ShareOverQRcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CE31D2252AF6AA001FC6D8 /* ShareOverQRcode.swift */; };
+		10CE31D9252B0C2E001FC6D8 /* ScanQRcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CE31D8252B0C2E001FC6D8 /* ScanQRcode.swift */; };
+		10E071A723446B3F0020BF1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E071A523446B3F0020BF1F /* Main.storyboard */; };
+		10E071AA23446B3F0020BF1F /* Emtron_SMART_HOME.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10E071A823446B3F0020BF1F /* Emtron_SMART_HOME.xcdatamodeld */; };
+		10E071AC23446B400020BF1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E071AB23446B400020BF1F /* Assets.xcassets */; };
+		10E071AF23446B400020BF1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E071AD23446B400020BF1F /* LaunchScreen.storyboard */; };
+		10E071B723446BCA0020BF1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E071B623446BCA0020BF1F /* AppDelegate.swift */; };
+		10E071B923446D800020BF1F /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E071B823446D800020BF1F /* WelcomeController.swift */; };
+		10E071BB23446E430020BF1F /* BLEAddDeviceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E071BA23446E430020BF1F /* BLEAddDeviceController.swift */; };
+		10E071C42344B9350020BF1F /* Aller_Rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10E071BD2344B9070020BF1F /* Aller_Rg.ttf */; };
+		10E071C52344B93A0020BF1F /* Aller_Bd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10E071BE2344B9070020BF1F /* Aller_Bd.ttf */; };
+		10E071C62344B93D0020BF1F /* Aller_BdIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10E071C12344B9070020BF1F /* Aller_BdIt.ttf */; };
+		10E071C72344B9400020BF1F /* Aller_It.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10E071C02344B9070020BF1F /* Aller_It.ttf */; };
+		10E071C82344B9420020BF1F /* Aller_Lt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10E071BF2344B9070020BF1F /* Aller_Lt.ttf */; };
+		10E071C92344B9450020BF1F /* Aller_LtIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10E071C22344B9070020BF1F /* Aller_LtIt.ttf */; };
+		10E071CA2344B94A0020BF1F /* AllerDisplay.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10E071C32344B9070020BF1F /* AllerDisplay.ttf */; };
+		D77EB520C57B51D57D7059F4 /* Pods_Emtron_SMART_HOME.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067ED5BE4C8D869131850F89 /* Pods_Emtron_SMART_HOME.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1022452724240AD100A29342 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		067ED5BE4C8D869131850F89 /* Pods_Emtron_SMART_HOME.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emtron_SMART_HOME.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10181CB923799AE600FC0B18 /* TemperatureCalendarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureCalendarController.swift; sourceTree = "<group>"; };
+		10181CBB2379A4F300FC0B18 /* CollectionViewCellTemperatureCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellTemperatureCalendar.swift; sourceTree = "<group>"; };
+		10181CBD237C5A1600FC0B18 /* ControllerProZadavaniCasuAteploty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerProZadavaniCasuAteploty.swift; sourceTree = "<group>"; };
+		1022452F2424108000A29342 /* Emtron-SMART-HOME.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Emtron-SMART-HOME.entitlements"; sourceTree = "<group>"; };
+		10508031238D6951005E0CAA /* CollectionViewCellSeznamZarizeni.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellSeznamZarizeni.swift; sourceTree = "<group>"; };
+		105323FE235D94DC003A8272 /* TestConnectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConnectionController.swift; sourceTree = "<group>"; };
+		10532400235DE4C4003A8272 /* DeviceListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceListController.swift; sourceTree = "<group>"; };
+		1053248B236018FA003A8272 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		1053248D23617AEB003A8272 /* FirstDeviceSetupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDeviceSetupController.swift; sourceTree = "<group>"; };
+		1053248F23617D5F003A8272 /* CollectioViewFirstDeviceSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectioViewFirstDeviceSetup.swift; sourceTree = "<group>"; };
+		10532491236197AB003A8272 /* DeviceDetailHeatingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailHeatingController.swift; sourceTree = "<group>"; };
+		105324932361980D003A8272 /* DeviceDetailLightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailLightController.swift; sourceTree = "<group>"; };
+		105FC4B42345EBC000A46384 /* NavodStr2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavodStr2Controller.swift; sourceTree = "<group>"; };
+		1066126F250A5524006350D1 /* DetailedModuleSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedModuleSetting.swift; sourceTree = "<group>"; };
+		1081577124877DB400AE4E2B /* SelectAddDeviceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAddDeviceController.swift; sourceTree = "<group>"; };
+		108157732487801D00AE4E2B /* NavodStr1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavodStr1Controller.swift; sourceTree = "<group>"; };
+		1098FD55256555B3006213AB /* NavodKpouzitiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavodKpouzitiController.swift; sourceTree = "<group>"; };
+		1098FD5825655A87006213AB /* CollectionViewCellSeznamNavodu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellSeznamNavodu.swift; sourceTree = "<group>"; };
+		109E69DA2381B354005F141D /* AppSetupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSetupController.swift; sourceTree = "<group>"; };
+		10CC295A250FA16500E05995 /* SelectedColourController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedColourController.swift; sourceTree = "<group>"; };
+		10CC295C250FA64000E05995 /* CollectionViewColour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewColour.swift; sourceTree = "<group>"; };
+		10CE31D2252AF6AA001FC6D8 /* ShareOverQRcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareOverQRcode.swift; sourceTree = "<group>"; };
+		10CE31D8252B0C2E001FC6D8 /* ScanQRcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRcode.swift; sourceTree = "<group>"; };
+		10E0719C23446B3F0020BF1F /* Emtron-SMART-HOME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emtron-SMART-HOME.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E071A623446B3F0020BF1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10E071A923446B3F0020BF1F /* Emtron_SMART_HOME.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Emtron_SMART_HOME.xcdatamodel; sourceTree = "<group>"; };
+		10E071AB23446B400020BF1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10E071AE23446B400020BF1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10E071B023446B400020BF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E071B623446BCA0020BF1F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../Emtron Reader/Emtron Reader/AppDelegate.swift"; sourceTree = "<group>"; };
+		10E071B823446D800020BF1F /* WelcomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
+		10E071BA23446E430020BF1F /* BLEAddDeviceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEAddDeviceController.swift; sourceTree = "<group>"; };
+		10E071BD2344B9070020BF1F /* Aller_Rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aller_Rg.ttf; sourceTree = "<group>"; };
+		10E071BE2344B9070020BF1F /* Aller_Bd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aller_Bd.ttf; sourceTree = "<group>"; };
+		10E071BF2344B9070020BF1F /* Aller_Lt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aller_Lt.ttf; sourceTree = "<group>"; };
+		10E071C02344B9070020BF1F /* Aller_It.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aller_It.ttf; sourceTree = "<group>"; };
+		10E071C12344B9070020BF1F /* Aller_BdIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aller_BdIt.ttf; sourceTree = "<group>"; };
+		10E071C22344B9070020BF1F /* Aller_LtIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aller_LtIt.ttf; sourceTree = "<group>"; };
+		10E071C32344B9070020BF1F /* AllerDisplay.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AllerDisplay.ttf; sourceTree = "<group>"; };
+		C8AAC18156279F8CD9FE9E57 /* Pods-Emtron-SMART-HOME.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emtron-SMART-HOME.release.xcconfig"; path = "Target Support Files/Pods-Emtron-SMART-HOME/Pods-Emtron-SMART-HOME.release.xcconfig"; sourceTree = "<group>"; };
+		CCD4E033756A5516923C84E6 /* Pods-Emtron-SMART-HOME.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emtron-SMART-HOME.debug.xcconfig"; path = "Target Support Files/Pods-Emtron-SMART-HOME/Pods-Emtron-SMART-HOME.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10E0719923446B3F0020BF1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77EB520C57B51D57D7059F4 /* Pods_Emtron_SMART_HOME.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10E0719323446B3F0020BF1F = {
+			isa = PBXGroup;
+			children = (
+				10E0719E23446B3F0020BF1F /* Emtron-SMART-HOME */,
+				10E0719D23446B3F0020BF1F /* Products */,
+				9DED4FE86C994FD78EB99337 /* Pods */,
+				C5B87538E3805D4A1693A977 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10E0719D23446B3F0020BF1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10E0719C23446B3F0020BF1F /* Emtron-SMART-HOME.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10E0719E23446B3F0020BF1F /* Emtron-SMART-HOME */ = {
+			isa = PBXGroup;
+			children = (
+				1022452F2424108000A29342 /* Emtron-SMART-HOME.entitlements */,
+				10E071BC2344B8B50020BF1F /* Fonts */,
+				10E071A523446B3F0020BF1F /* Main.storyboard */,
+				10E071B823446D800020BF1F /* WelcomeController.swift */,
+				108157732487801D00AE4E2B /* NavodStr1Controller.swift */,
+				1098FD55256555B3006213AB /* NavodKpouzitiController.swift */,
+				105FC4B42345EBC000A46384 /* NavodStr2Controller.swift */,
+				10E071BA23446E430020BF1F /* BLEAddDeviceController.swift */,
+				105323FE235D94DC003A8272 /* TestConnectionController.swift */,
+				10532400235DE4C4003A8272 /* DeviceListController.swift */,
+				1081577124877DB400AE4E2B /* SelectAddDeviceController.swift */,
+				10CC295A250FA16500E05995 /* SelectedColourController.swift */,
+				1066126F250A5524006350D1 /* DetailedModuleSetting.swift */,
+				1053248D23617AEB003A8272 /* FirstDeviceSetupController.swift */,
+				109E69DA2381B354005F141D /* AppSetupController.swift */,
+				10CE31D8252B0C2E001FC6D8 /* ScanQRcode.swift */,
+				10181CB923799AE600FC0B18 /* TemperatureCalendarController.swift */,
+				10181CBD237C5A1600FC0B18 /* ControllerProZadavaniCasuAteploty.swift */,
+				105324932361980D003A8272 /* DeviceDetailLightController.swift */,
+				10532491236197AB003A8272 /* DeviceDetailHeatingController.swift */,
+				10CE31D2252AF6AA001FC6D8 /* ShareOverQRcode.swift */,
+				1053248B236018FA003A8272 /* CollectionViewCell.swift */,
+				1053248F23617D5F003A8272 /* CollectioViewFirstDeviceSetup.swift */,
+				10181CBB2379A4F300FC0B18 /* CollectionViewCellTemperatureCalendar.swift */,
+				10508031238D6951005E0CAA /* CollectionViewCellSeznamZarizeni.swift */,
+				1098FD5825655A87006213AB /* CollectionViewCellSeznamNavodu.swift */,
+				10E071B623446BCA0020BF1F /* AppDelegate.swift */,
+				10CC295C250FA64000E05995 /* CollectionViewColour.swift */,
+				10E071AB23446B400020BF1F /* Assets.xcassets */,
+				10E071AD23446B400020BF1F /* LaunchScreen.storyboard */,
+				10E071B023446B400020BF1F /* Info.plist */,
+				10E071A823446B3F0020BF1F /* Emtron_SMART_HOME.xcdatamodeld */,
+			);
+			path = "Emtron-SMART-HOME";
+			sourceTree = "<group>";
+		};
+		10E071BC2344B8B50020BF1F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				10E071BE2344B9070020BF1F /* Aller_Bd.ttf */,
+				10E071C12344B9070020BF1F /* Aller_BdIt.ttf */,
+				10E071C02344B9070020BF1F /* Aller_It.ttf */,
+				10E071BF2344B9070020BF1F /* Aller_Lt.ttf */,
+				10E071C22344B9070020BF1F /* Aller_LtIt.ttf */,
+				10E071BD2344B9070020BF1F /* Aller_Rg.ttf */,
+				10E071C32344B9070020BF1F /* AllerDisplay.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9DED4FE86C994FD78EB99337 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCD4E033756A5516923C84E6 /* Pods-Emtron-SMART-HOME.debug.xcconfig */,
+				C8AAC18156279F8CD9FE9E57 /* Pods-Emtron-SMART-HOME.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5B87538E3805D4A1693A977 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				067ED5BE4C8D869131850F89 /* Pods_Emtron_SMART_HOME.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10E0719B23446B3F0020BF1F /* Emtron-SMART-HOME */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E071B323446B400020BF1F /* Build configuration list for PBXNativeTarget "Emtron-SMART-HOME" */;
+			buildPhases = (
+				8BB46E2F088330FAA925C212 /* [CP] Check Pods Manifest.lock */,
+				10E0719823446B3F0020BF1F /* Sources */,
+				10E0719923446B3F0020BF1F /* Frameworks */,
+				10E0719A23446B3F0020BF1F /* Resources */,
+				772D0967A79A428CE514B0B7 /* [CP] Embed Pods Frameworks */,
+				1022452724240AD100A29342 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Emtron-SMART-HOME";
+			productName = "Emtron-SMART-HOME";
+			productReference = 10E0719C23446B3F0020BF1F /* Emtron-SMART-HOME.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10E0719423446B3F0020BF1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Ivo Dvorak";
+				TargetAttributes = {
+					10E0719B23446B3F0020BF1F = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 10E0719723446B3F0020BF1F /* Build configuration list for PBXProject "Emtron-SMART-HOME" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10E0719323446B3F0020BF1F;
+			productRefGroup = 10E0719D23446B3F0020BF1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10E0719B23446B3F0020BF1F /* Emtron-SMART-HOME */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10E0719A23446B3F0020BF1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E071C42344B9350020BF1F /* Aller_Rg.ttf in Resources */,
+				10E071AF23446B400020BF1F /* LaunchScreen.storyboard in Resources */,
+				10E071C62344B93D0020BF1F /* Aller_BdIt.ttf in Resources */,
+				10E071C52344B93A0020BF1F /* Aller_Bd.ttf in Resources */,
+				10E071AC23446B400020BF1F /* Assets.xcassets in Resources */,
+				10E071A723446B3F0020BF1F /* Main.storyboard in Resources */,
+				10E071C72344B9400020BF1F /* Aller_It.ttf in Resources */,
+				10E071C92344B9450020BF1F /* Aller_LtIt.ttf in Resources */,
+				10E071CA2344B94A0020BF1F /* AllerDisplay.ttf in Resources */,
+				10E071C82344B9420020BF1F /* Aller_Lt.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		772D0967A79A428CE514B0B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Emtron-SMART-HOME/Pods-Emtron-SMART-HOME-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Emtron-SMART-HOME/Pods-Emtron-SMART-HOME-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Emtron-SMART-HOME/Pods-Emtron-SMART-HOME-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BB46E2F088330FAA925C212 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Emtron-SMART-HOME-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10E0719823446B3F0020BF1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1053248E23617AEC003A8272 /* FirstDeviceSetupController.swift in Sources */,
+				105324942361980D003A8272 /* DeviceDetailLightController.swift in Sources */,
+				10E071B723446BCA0020BF1F /* AppDelegate.swift in Sources */,
+				10CE31D3252AF6AA001FC6D8 /* ShareOverQRcode.swift in Sources */,
+				10181CBC2379A4F300FC0B18 /* CollectionViewCellTemperatureCalendar.swift in Sources */,
+				1053249023617D5F003A8272 /* CollectioViewFirstDeviceSetup.swift in Sources */,
+				10CE31D9252B0C2E001FC6D8 /* ScanQRcode.swift in Sources */,
+				1098FD5925655A87006213AB /* CollectionViewCellSeznamNavodu.swift in Sources */,
+				10CC295B250FA16500E05995 /* SelectedColourController.swift in Sources */,
+				1098FD56256555B3006213AB /* NavodKpouzitiController.swift in Sources */,
+				10532401235DE4C4003A8272 /* DeviceListController.swift in Sources */,
+				10181CBA23799AE600FC0B18 /* TemperatureCalendarController.swift in Sources */,
+				1053248C236018FA003A8272 /* CollectionViewCell.swift in Sources */,
+				10181CBE237C5A1600FC0B18 /* ControllerProZadavaniCasuAteploty.swift in Sources */,
+				109E69DB2381B354005F141D /* AppSetupController.swift in Sources */,
+				10661270250A5524006350D1 /* DetailedModuleSetting.swift in Sources */,
+				10532492236197AC003A8272 /* DeviceDetailHeatingController.swift in Sources */,
+				105323FF235D94DC003A8272 /* TestConnectionController.swift in Sources */,
+				108157742487801D00AE4E2B /* NavodStr1Controller.swift in Sources */,
+				10508032238D6951005E0CAA /* CollectionViewCellSeznamZarizeni.swift in Sources */,
+				10CC295D250FA64000E05995 /* CollectionViewColour.swift in Sources */,
+				10E071B923446D800020BF1F /* WelcomeController.swift in Sources */,
+				105FC4B52345EBC000A46384 /* NavodStr2Controller.swift in Sources */,
+				1081577224877DB400AE4E2B /* SelectAddDeviceController.swift in Sources */,
+				10E071AA23446B3F0020BF1F /* Emtron_SMART_HOME.xcdatamodeld in Sources */,
+				10E071BB23446E430020BF1F /* BLEAddDeviceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10E071A523446B3F0020BF1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10E071A623446B3F0020BF1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10E071AD23446B400020BF1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10E071AE23446B400020BF1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10E071B123446B400020BF1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10E071B223446B400020BF1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10E071B423446B400020BF1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD4E033756A5516923C84E6 /* Pods-Emtron-SMART-HOME.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Emtron-SMART-HOME/Emtron-SMART-HOME.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = YD4Q7WXX8H;
+				INFOPLIST_FILE = "Emtron-SMART-HOME/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Emtron.cz.Emtron-SMART-HOME";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		10E071B523446B400020BF1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8AAC18156279F8CD9FE9E57 /* Pods-Emtron-SMART-HOME.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Emtron-SMART-HOME/Emtron-SMART-HOME.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = YD4Q7WXX8H;
+				INFOPLIST_FILE = "Emtron-SMART-HOME/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Emtron.cz.Emtron-SMART-HOME";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10E0719723446B3F0020BF1F /* Build configuration list for PBXProject "Emtron-SMART-HOME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E071B123446B400020BF1F /* Debug */,
+				10E071B223446B400020BF1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		10E071B323446B400020BF1F /* Build configuration list for PBXNativeTarget "Emtron-SMART-HOME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E071B423446B400020BF1F /* Debug */,
+				10E071B523446B400020BF1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		10E071A823446B3F0020BF1F /* Emtron_SMART_HOME.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				10E071A923446B3F0020BF1F /* Emtron_SMART_HOME.xcdatamodel */,
+			);
+			currentVersion = 10E071A923446B3F0020BF1F /* Emtron_SMART_HOME.xcdatamodel */;
+			path = Emtron_SMART_HOME.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 10E0719423446B3F0020BF1F /* Project object */;
+}
