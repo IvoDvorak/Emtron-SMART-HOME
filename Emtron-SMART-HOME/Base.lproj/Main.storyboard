@@ -861,7 +861,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="dkl-qW-s8A" customClass="CollectionViewCell" customModule="Emtron_SMART_HOME" customModuleProvider="target">
-                                        <rect key="frame" x="21" y="15" width="387" height="195"/>
+                                        <rect key="frame" x="20.666666666666668" y="15" width="387" height="195"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="oGL-Va-v4c">
                                             <rect key="frame" x="0.0" y="0.0" width="387" height="195"/>
